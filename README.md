@@ -1,5 +1,5 @@
 # Twine SugarCube v2.x русская документация
-[ **визуальный редактор игр** ](https://twinery.org) **|** [ **пример игры** ](https://db.crem.xyz/f/uploads/Uh_est_ro.html) **|** [ **complete original documentation** ](http://www.motoslave.net/sugarcube/2/)
+[ **визуальный редактор игр** ](https://twinery.org) **|** [ **пример игры** ](https://db.crem.xyz/f/uploads/Uh_est_ro.html) **|** [ **complete original documentation** ](http://www.motoslave.net/sugarcube/2/) **|** [ **учебник создания игры** ](http://www.motoslave.net/sugarcube/2/)
 
 Предупреждение: перевод некоторых названий и сокращений может быть неточным или вообще отсутствовать. Однако, понимание технического смысла пунктов документации от этого не пострадает, благодаря практическим примерам кода и пояснениям к ним.
 ## Требования
@@ -7,7 +7,7 @@
 
 **Предостережение для пользователей Internet Explorer**: SugarCube поддерживает только IE ≥9. Таким образом, пользователи Windows XP (которые ограничены IE8) не смогут воспроизводить / просматривать истории, созданные с помощью SugarCube, с их версией IE. Им следует либо использовать другой браузер, либо обновить версию  Windows (Microsoft завершила публичную поддержку Windows XP в апреле 2014 года).
 ## Категории
-* Специальные имена [Special Names] [#eef]
+* Специальные имена [Special Names][#eef:]
 * Форматирование текста / Markup
 * Макросы / Macros
 * Код / TwineScript

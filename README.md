@@ -1,5 +1,5 @@
 # Twine SugarCube v2.x русская документация
-[ **визуальный редактор игр** ](https://twinery.org) **|** [ **пример игры** ](https://db.crem.xyz/f/uploads/Uh_est_ro.html) **|** [ **complete original documentation** ](http://www.motoslave.net/sugarcube/2/) **|** [ **учебник создания игры** ](http://www.motoslave.net/sugarcube/2/)
+[ **визуальный редактор игр** ](https://twinery.org) **|** [ **пример игры** ](https://db.crem.xyz/f/uploads/Uh_est_ro.html) **|** [ **complete original documentation** ](http://www.motoslave.net/sugarcube/2/) **|** [ **учебник создания игры** ](https://github.com/Wol4ik/Wol4ik.github.io/blob/master/wol4ik_example.md)
 
 Предупреждение: перевод некоторых названий и сокращений может быть неточным или вообще отсутствовать. Однако, понимание технического смысла пунктов документации от этого не пострадает, благодаря практическим примерам кода и пояснениям к ним.
 ## Требования

@@ -1,3 +1,8 @@
+## [ChoiceScript Wiki](https://choicescriptdev.wikia.com/wiki/ChoiceScript_Wiki)
+* [изображения](https://choicescriptdev.wikia.com/wiki/Image)
+* [звук](https://choicescriptdev.wikia.com/wiki/Sound)
+* много того, чего нет в документации в этом файле
+
 ## Introduction to ChoiceScript
 * [choice-and-finish](#your-first-scene-choice-and-finish)
 * [goto-and-label](#reusing-code-goto-and-label)

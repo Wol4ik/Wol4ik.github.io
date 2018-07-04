@@ -1,5 +1,5 @@
 # Introduction to ChoiceScript
-
+[ccskrf](#setting-and-checking-variables)
 A basic guide to the ChoiceScript programming language. Please post on the [ChoiceScript google group](http://groups.google.com/group/choicescript) if you have questions about this document.
 
 ## What is ChoiceScript?

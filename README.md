@@ -1,8 +1,8 @@
+![_](https://vignette4.wikia.nocookie.net/choicescriptdev/images/8/89/Wiki-wordmark.png/revision/latest?cb=20161111163613)
 ## [ChoiceScript Wiki](https://choicescriptdev.wikia.com/wiki/ChoiceScript_Wiki)
 * [изображения](https://choicescriptdev.wikia.com/wiki/Image)
 * [звук](https://choicescriptdev.wikia.com/wiki/Sound)
-* много того, чего нет в документации в этом файле
-![_](https://vignette4.wikia.nocookie.net/choicescriptdev/images/8/89/Wiki-wordmark.png/revision/latest?cb=20161111163613)
+* много того, чего нет в документации в этом файле.
 
 ## Introduction to ChoiceScript
 * [choice-and-finish](#your-first-scene-choice-and-finish)

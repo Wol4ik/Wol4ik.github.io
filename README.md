@@ -16,22 +16,23 @@
 ## [advanced-techniques](#advanced-techniques)
 
 * кнопки Next и Next Chapter, изменение текста этих кнопок
+* "%+" and "%-"
+* равенство и неравенство оператора if
+* and/or
+* comparing text
+* setting variables to true or false
+* текстовые трюки
+* gotoref: Goto a label by name, e.g. *gotoref "claws"
+* Поместите некоторый текст в фигурные скобки, и мы превратим его в значение указанной переменной. 
+```
+  *set honesty 30
+  *set virtue "honesty"
+  *set score {virtue}
+  Your ${virtue} score is ${score}
+```
+* end of Documentation
 
-
-
-
-
-](#advanced-choicescript)
-* [choice-and-finish](#your-first-scene-choice-and-finish)
-* [choice-and-finish](#your-first-scene-choice-and-finish)
-* [choice-and-finish](#your-first-scene-choice-and-finish)
-* [choice-and-finish](#your-first-scene-choice-and-finish)
-* [choice-and-finish](#your-first-scene-choice-and-finish)
-* [choice-and-finish](#your-first-scene-choice-and-finish)
-
-
-
-
+-----
 
 # Introduction to ChoiceScript
 [ccskrf](#setting-and-checking-variables)

@@ -2,6 +2,7 @@
 * [изображения](https://choicescriptdev.wikia.com/wiki/Image)
 * [звук](https://choicescriptdev.wikia.com/wiki/Sound)
 * много того, чего нет в документации в этом файле
+[](https://vignette4.wikia.nocookie.net/choicescriptdev/images/8/89/Wiki-wordmark.png/revision/latest?cb=20161111163613)
 
 ## Introduction to ChoiceScript
 * [choice-and-finish](#your-first-scene-choice-and-finish)

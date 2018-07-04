@@ -1,3 +1,38 @@
+## Introduction to ChoiceScript
+* [choice-and-finish](#your-first-scene-choice-and-finish)
+* [goto-and-label](#reusing-code-goto-and-label)
+* [checking-variables](#setting-and-checking-variables)
+* [else-and-elseif](#using-else-and-elseif-to-improve-readability)
+* [finish](#what-happens-when-we-finish)
+
+## [Advanced ChoiceScript](#advanced-choicescript)
+* comment
+* page_break
+* line_break
+* input_text
+* fake_choice
+* rand
+
+## [advanced-techniques](#advanced-techniques)
+
+* кнопки Next и Next Chapter, изменение текста этих кнопок
+
+
+
+
+
+](#advanced-choicescript)
+* [choice-and-finish](#your-first-scene-choice-and-finish)
+* [choice-and-finish](#your-first-scene-choice-and-finish)
+* [choice-and-finish](#your-first-scene-choice-and-finish)
+* [choice-and-finish](#your-first-scene-choice-and-finish)
+* [choice-and-finish](#your-first-scene-choice-and-finish)
+* [choice-and-finish](#your-first-scene-choice-and-finish)
+
+
+
+
+
 # Introduction to ChoiceScript
 [ccskrf](#setting-and-checking-variables)
 A basic guide to the ChoiceScript programming language. Please post on the [ChoiceScript google group](http://groups.google.com/group/choicescript) if you have questions about this document.

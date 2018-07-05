@@ -1,5 +1,5 @@
 #  ChoiceScript, a simple scripting language for writing text-based & multiple-choice games
-##3 [Sublime Text 2/3 syntax highlighting for Choice Script](https://github.com/Wol4ik/Wol4ik.github.io/blob/master/choicescript-sublime-text.zip) | [REP List](https://github.com/Wol4ik/Wol4ik.github.io)
+## [Sublime Text 2/3 syntax highlighting for Choice Script](https://github.com/Wol4ik/Wol4ik.github.io/blob/master/choicescript-sublime-text.zip) | [REP List](https://github.com/Wol4ik/Wol4ik.github.io)
 ![_](https://vignette4.wikia.nocookie.net/choicescriptdev/images/8/89/Wiki-wordmark.png/revision/latest?cb=20161111163613)
 ## [ChoiceScript Wiki](https://choicescriptdev.wikia.com/wiki/ChoiceScript_Wiki)
 * [изображения](https://choicescriptdev.wikia.com/wiki/Image)

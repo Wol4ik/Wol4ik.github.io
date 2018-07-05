@@ -2,6 +2,7 @@
 ##  [Github Pages](https://Wol4ik.github.io) | [REP List](https://github.com/Wol4ik/Wol4ik.github.io) | [SublimeText syntax for ChoiceScript](https://github.com/Wol4ik/Wol4ik.github.io/blob/master/choicescript-sublime-text.zip)
 ![_](https://vignette4.wikia.nocookie.net/choicescriptdev/images/8/89/Wiki-wordmark.png/revision/latest?cb=20161111163613)
 ## [ChoiceScript Wiki](https://choicescriptdev.wikia.com/wiki/ChoiceScript_Wiki)
+* [структура папок игры CoG и назначение файлов](https://choicescriptdev.wikia.com/wiki/Structure_of_a_ChoiceScript_game)
 * [изображения](https://choicescriptdev.wikia.com/wiki/Image)
 * [звук](https://choicescriptdev.wikia.com/wiki/Sound)
 * много того, чего нет в документации в этом файле.

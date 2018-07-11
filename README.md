@@ -1,4 +1,4 @@
-# [--> Документация по синтаксису Markdown-игр-->](https://Wol4ik.github.io)
+# [--> Документация по синтаксису Markdown игр -->](https://Wol4ik.github.io)
 ## Этот текст взят из отчета создателя FicDown на одном из форумов
 ### https://www.intfiction.org/forum/viewtopic.php?f=38&t=15462#p77476
 

@@ -1,3 +1,4 @@
+# [--> Учебник, как писать игру на Markdown](https://github.com/Wol4ik/markdown-games.io/blob/master/ficdown_taskman.md)
 # [--> Документация по синтаксису Markdown игр](https://Wol4ik.github.io)
 # [--> Сайт движка](https://ficdown.com/)
 ## Этот текст взят из отчета создателя FicDown на одном из форумов

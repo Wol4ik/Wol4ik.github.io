@@ -1,5 +1,20 @@
 # [http://textadventures.co.uk/](http://textadventures.co.uk/quest)
 [ **Squiffy редактор СОИ-книгр** ](http://textadventures.co.uk/squiffy/editor) **|** [ **Squiffy РУССКАЯ документация** ](squiffy_doc_ru.md) **|** [ **Squiffy Doc Eng** ](http://docs.textadventures.co.uk/squiffy/)
+
+[[ ## Документация
+  *  Разделы и проходы
+  *  Использование JavaScript
+  *  Поверните счетчик
+  *  Очистка экрана
+  *  Атрибуты
+  *  Вложение текста
+  *  Отслеживание разделов и проходов
+  *  Настройка начального раздела
+  *  Настройка заголовка
+  *  Продолжить ссылки
+  *  Замена текста
+  *  Поворот и последовательность
+  *  Мастер-секции и проходы]](squiffy_doc_ru.md)
 - - - - - - -
 # Twine SugarCube v2.x русская документация
 [ визуальный редактор игр ](https://twinery.org) **|** [ пример игры ](https://db.crem.xyz/f/uploads/Uh_est_ro.html) **|** [ complete original documentation ](http://www.motoslave.net/sugarcube/2/)

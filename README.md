@@ -1,5 +1,5 @@
 # Twine SugarCube v2.x русская документация
-[ **визуальный редактор игр** ](https://twinery.org) **|** [ **пример игры** ](https://db.crem.xyz/f/uploads/Uh_est_ro.html) **|** [ **complete original documentation** ](http://www.motoslave.net/sugarcube/2/)
+[Squiffy редактор СОИ-книгр](http://textadventures.co.uk/squiffy/editor) **|** [Squiffy Doc Enf](http://docs.textadventures.co.uk/squiffy/) **|** [Squiffy РУССКАЯ документация](squiffy_doc_ru.md) **|** [ **визуальный редактор игр** ](https://twinery.org) **|** [ **пример игры** ](https://db.crem.xyz/f/uploads/Uh_est_ro.html) **|** [ **complete original documentation** ](http://www.motoslave.net/sugarcube/2/)
 
 Предупреждение: перевод некоторых названий и сокращений может быть неточным или вообще отсутствовать (_кроме категории [Специальные имена](https://github.com/Wol4ik/Wol4ik.github.io/blob/master/twine2_engine/tw2_doc_enola.md)_). Однако, понимание технического смысла пунктов документации от этого не пострадает, благодаря практическим примерам кода и пояснениям к ним.
 ## Требования

@@ -1,6 +1,6 @@
 # http://textadventures.co.uk/
 [ **Squiffy редактор СОИ-книгр** ](http://textadventures.co.uk/squiffy/editor) **|** [ **Squiffy РУССКАЯ документация** ](squiffy_doc_ru.md) **|** [ **Squiffy Doc Eng** ](http://docs.textadventures.co.uk/squiffy/)
--------
+- - - - - - -
 # Twine SugarCube v2.x русская документация
 [ визуальный редактор игр ](https://twinery.org) **|** [ пример игры ](https://db.crem.xyz/f/uploads/Uh_est_ro.html) **|** [ complete original documentation ](http://www.motoslave.net/sugarcube/2/)
 

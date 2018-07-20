@@ -142,3 +142,37 @@ You chose {gender}.
 ```
 {if a=@b:attribute value a and attribute value b are equals.}{else:Are differtents.}
 ```
+
+# Вложение текста
+
+Вы можете вставлять текст из другого раздела или из прохода в текущем разделе, окружая его имя фигурными скобками.
+```
+[[section1]]:
+Here is some text from the next section: {section2}
+
+Here is some text from a passage in this section: {passage}
+
+[passage]:
+Text from passage.
+
+[[section2]]:
+Text from next section.
+```
+
+# Отслеживание разделов и проходов
+
+Вы можете узнать, видел ли игрок проход или раздел с использованием JavaScript:
+```
+ if (squiffy.story.seen("passage3")) alert ("You have seen passage3!");
+```
+Вы также можете условно отображать текст:
+```
+You can see a [cupboard]. Maybe you should [open] it?
+
+[open]:
+You open the cupboard.
+
+[cupboard]:
+The cupboard is {if seen open:open, and there are empty bottles inside}{else:closed}.
+```
+

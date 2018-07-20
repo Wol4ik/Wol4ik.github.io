@@ -49,3 +49,30 @@ The cover opens up to reveal the pages all glued together, with an empty key-sha
 My first reaction to the explosion was...
 ```
 
+# Поверните счетчик
+
+Вы можете вызвать проход после того, как игрок совершил определенное количество кликов в секции. Например, вы можете отобразить дополнительный текст, чтобы указать время прохождения. Или в проходе может быть запущен некоторый JavaScript для автоматического перемещения игрока в другой раздел.
+
+В приведенном ниже примере текст «Мы почти здесь. Поезд тянет в платформу ». Всегда записывается после первого щелчка. После второго прохода нажмите, мы переместимся в следующий раздел.
+```
+On the train you can see a [girl singing], a [man reading a book] and an [old woman].
+
+[girl singing]:
+She is nodding her head to the music in her enormous earphones, and singing badly out of tune.
+
+[man reading a book]:
+He's been reading the same page of *War and Peace* for a while now.
+
+[old woman]:
+She eyes you suspiciously, as if she has seen your type before.
+
+[@1]:
+We're nearly here. The train is pulling into the platform.
+
+[@2]:
+
+    squiffy.story.go("station");
+
+[[station]]:
+We have now arrived at the station.
+```

@@ -116,9 +116,10 @@ Are you [[male]](start, gender=male) or [[female]](start, gender=female)?
 Your choice has been recorded.
 ```
 И вы также можете установить значение в JavaScript:
-
-squiffy.set («пол», «женщина»);
-
+```
+squiffy.set("gender", "female");
+```
 Вы также можете установить значения атрибутов в условии if, добавить «{@ operations}» после условия двоеточия (:), например:
-
+```
 {if a = 1: {@ b + = 1, c- = 1, d = 2, not e}} {else: {@ b + = 2, c + = 2, d = 3, e}}
+```

@@ -123,3 +123,22 @@ squiffy.set("gender", "female");
 ```
 {if a = 1: {@ b + = 1, c- = 1, d = 2, not e}} {else: {@ b + = 2, c + = 2, d = 3, e}}
 ```
+
+## Чтение атрибутов
+
+Вы можете отобразить значение атрибута, окружив его фигурными скобками.
+```
+You chose {gender}. 
+```
+Вы также можете прочитать значение с помощью JavaScript:
+```
+  var gender = squiffy.get("gender"); 
+```
+Вы можете условно отображать текст в зависимости от значения атрибута, используя «if» внутри фигурных скобок. Вы также можете использовать «else»:
+```
+{if gender=male:You are a man.}{else:You are a woman.} 
+```
+Или вы можете сравнить два атрибута, добавить @ перед вторым атрибутом, он рассматривается как атрибут squiffy not value:
+```
+{if a=@b:attribute value a and attribute value b are equals.}{else:Are differtents.}
+```

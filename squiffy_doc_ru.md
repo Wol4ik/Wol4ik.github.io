@@ -40,6 +40,41 @@ The cover opens up to reveal the pages all glued together, with an empty key-sha
 [paper]:
 "Gone out for a walk. May be a while."
 ```
+# Настройка начального раздела
+
+По умолчанию история начинается в первом разделе. Вы можете выбрать другой раздел: 
+```
+@start Beginning
+
+[[some other section]]:
+This section would normally be the start, but we have overridden it.
+
+[[Beginning]]:
+This is where the story begins.
+```
+
+# Настройка заголовка
+
+Задайте заголовок следующим образом:
+```
+@title My Amazing Interactive Story
+```
+
+# Продолжить ссылки
+
+Если у вас есть раздел с одной ссылкой, которая просто переходит к следующему разделу, вы можете автоматически создать ссылку «Продолжить» следующим образом:
+```
+This is the first part of my story.
+
++++Continue...
+
+This is the second part.
+
++++I want to hear more...
+
+Very well. Here is the third part.
+```
+
 # Очистка экрана
 
 Перед появлением любого раздела или прохода можно очистить экран, используя _@clear_ **на отдельной строке**:
@@ -176,3 +211,37 @@ You open the cupboard.
 The cupboard is {if seen open:open, and there are empty bottles inside}{else:closed}.
 ```
 
+# Замена текста
+
+Создавая ярлыки, вы можете заменить существующий вывод при щелчке ссылки или при отображении прохода или секции. В приведенном ниже примере мы создаем метку «1», и мы меняем текст на этом ярлыке, используя ссылку:
+```
+I walked to the shops and I bought {label:1=a pint of milk}.
+
+Or maybe [I bought something different?](@replace 1=a loaf of bread)
+```
+Мы также можем изменить текст при отображении раздела или прохода:
+```
+I walked to the shops and I bought {label:1=a pint of milk}.
+
+Or maybe [I bought something different?](next passage)
+
+[next passage]:
+@replace 1=a bottle of whisky
+
+I changed my mind.
+```
+Если текст замены соответствует названию раздела или прохода, вместо этого будет вставлено содержимое этого раздела или прохода.
+```
+I walked to the shops and I {label:1=bought a pint of milk}.
+
+But I was [thinking](@replace 1=thoughts)...
+
+[thoughts]:
+suddenly thought, hang on, I could [[go to the funfair]] or [[join the circus]] instead.
+
+[[go to the funfair]]:
+Off I went to the funfair...
+
+[[join the circus]]:
+Off I went to the circus...
+```

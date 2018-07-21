@@ -1,7 +1,8 @@
 # [Редактор интерантивных текстовых историй Squiffy от http://textadventures.co.uk/](http://textadventures.co.uk/squiffy/editor)
-## [исходная документация Eng](http://docs.textadventures.co.uk/squiffy/)
+ [ссылка на исходную документацию Eng](http://docs.textadventures.co.uk/squiffy/)
 
 Русский перевод выполнен машиной, я расставил разметку и чуть поправил тескт. Этот перевод находится в состоянии доработки.
+Помогали в составлении: **Enola**, **Oreolek**
 
 # Сцены и действия
 

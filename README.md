@@ -14,7 +14,7 @@
   *  Продолжить ссылки
   *  Замена текста
   *  Поворот и последовательность
-  *  Мастер-секции и проходы]]
+  *  Мастер-секции и проходы
 - - - - - - -
 # Twine SugarCube v2.x русская документация
 [ визуальный редактор игр ](https://twinery.org) **|** [ пример игры ](https://db.crem.xyz/f/uploads/Uh_est_ro.html) **|** [ complete original documentation ](http://www.motoslave.net/sugarcube/2/)

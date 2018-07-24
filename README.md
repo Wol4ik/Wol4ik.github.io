@@ -1,5 +1,5 @@
-# [http://textadventures.co.uk/](http://textadventures.co.uk/quest)
-[ **Squiffy редактор СОИ-книгр** ](http://textadventures.co.uk/squiffy/editor) **|** [ **Squiffy РУССКАЯ документация** ](squiffy_doc_ru.md) **|** [ **Squiffy Doc Eng** ](http://docs.textadventures.co.uk/squiffy/)
+# textadventures.co.uk
+[ Squiffy редактор СОИ-книгр ](http://textadventures.co.uk/squiffy/editor) **|** [ Squiffy РУССКАЯ документация ](squiffy_doc_ru.md) **|** [ Squiffy Doc Eng ](http://docs.textadventures.co.uk/squiffy/)
 
 [Документация](squiffy_doc_ru.md)
   *  Разделы и проходы

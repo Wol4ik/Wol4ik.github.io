@@ -1,7 +1,7 @@
 # textadventures.co.uk
 [ Squiffy редактор СОИ-книгр ](http://textadventures.co.uk/squiffy/editor) **|** [ Squiffy РУССКАЯ документация ](squiffy_doc_ru.md) **|** [ Squiffy Doc Eng ](http://docs.textadventures.co.uk/squiffy/)
 
->
+> ...
 > On the train you can see a [girl singing], a [man reading a book] and an [old woman].
 >
 >   [girl singing]:
@@ -22,7 +22,7 @@
 >
 > [[station]]:
 > We have now arrived at the station.
-> 
+> ...
 
 - - - - - - -
 

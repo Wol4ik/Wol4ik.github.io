@@ -1,6 +1,27 @@
 # textadventures.co.uk
 [ Squiffy редактор СОИ-книгр ](http://textadventures.co.uk/squiffy/editor) **|** [ Squiffy РУССКАЯ документация ](squiffy_doc_ru.md) **|** [ Squiffy Doc Eng ](http://docs.textadventures.co.uk/squiffy/)
 
+> On the train you can see a [girl singing], a [man reading a book] and an [old woman].
+>
+> [girl singing]:
+> She is nodding her head to the music in her enormous earphones, and singing badly out of tune.
+>
+> [man reading a book]:
+> He's been reading the same page of *War and Peace* for a while now.
+>
+> [old woman]:
+> She eyes you suspiciously, as if she has seen your type before.
+> 
+> [@1]:
+> We're nearly here. The train is pulling into the platform.
+> 
+>[@2]:
+>
+>     squiffy.story.go("station");
+>
+> [[station]]:
+> We have now arrived at the station.
+
 - - - - - - -
 
 # Twine SugarCube v2.x русская документация

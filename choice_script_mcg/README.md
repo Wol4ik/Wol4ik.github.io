@@ -1,4 +1,30 @@
 #  ChoiceScript, a simple scripting language for writing text-based & multiple-choice games
+## РУСИФИКАЦИЯ
+Русификация движка ChoiceScript
+Wol4ik
+
+Моя инструкция, как заставить движок вопроизводить русские буквы (кириллические шрифты): в субдиреториях папки с движком отредактировать два файла html :
+
+**/web/index.html
+/web/mygame/index.html**
+
+Практически в самом начале файла между тэгами ```<head>``` поместить вот эту строчку кода:
+
+```<meta http-equiv="Content-Type" content="text/html; charset=utf-8">```
+
+То есть рядом с подобными же строчками типа ```<meta ........>```
+Вуаля, движок русифицирован. Главное, чтобы в вашей ОС (Windows, Linux, Android и тп) хоть как-то имелись русский язык, русская раскладка и русский шрифт.
+
+ВНИМАНИЕ! ChoiceScrip не будет по прежнему понимать нелатинские имена переменных для ```*create``` ```*temp``` ```*set``` и тд, и меток для ```*goto```. Сооответственно на экране Stats будет всегда английская подпись самой кнопки.
+
+Статы будут показаны на русском только, если если он приписаны к каждой переменной списка статов через пробел и без кавычек, вот так:
+```
+*stat_chart
+ 	percent weapons Оружие
+	 percent tools Инструменты
+	 percent magic Магия
+```
+
 ##  [Github Pages](https://Wol4ik.github.io) | [REP List](https://github.com/Wol4ik/Wol4ik.github.io) | [SublimeText syntax for ChoiceScript](https://github.com/Wol4ik/Wol4ik.github.io/blob/master/choicescript-sublime-text.zip)
 ![_](https://vignette4.wikia.nocookie.net/choicescriptdev/images/8/89/Wiki-wordmark.png/revision/latest?cb=20161111163613)
 ## [ChoiceScript Wiki](https://choicescriptdev.wikia.com/wiki/ChoiceScript_Wiki)

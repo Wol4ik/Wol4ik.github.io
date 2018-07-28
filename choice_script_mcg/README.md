@@ -1,7 +1,6 @@
 #  ChoiceScript, a simple scripting language for writing text-based & multiple-choice games
 ## РУСИФИКАЦИЯ
-Русификация движка ChoiceScript
-Wol4ik
+Русификация движка ChoiceScript /инструкция от Wol4ikа/
 
 Моя инструкция, как заставить движок вопроизводить русские буквы (кириллические шрифты): в субдиреториях папки с движком отредактировать два файла html :
 

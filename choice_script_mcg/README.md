@@ -19,8 +19,8 @@
 ```
 *stat_chart
  	percent weapons Оружие
-	 percent tools Инструменты
-	 percent magic Магия
+	percent tools Инструменты
+	percent magic Магия
 ```
 
 ##  [Github Pages](https://Wol4ik.github.io) | [REP List](https://github.com/Wol4ik/Wol4ik.github.io) | [SublimeText syntax for ChoiceScript](https://github.com/Wol4ik/Wol4ik.github.io/blob/master/choicescript-sublime-text.zip)

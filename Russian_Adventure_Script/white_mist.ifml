@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<story xmlns="http://toysoft.narod.ru/IFML2Schema" id="story">
+    <inheritedSystemProcedures/>
+    <storyOptions>
+        <startLocationOption showStartLocDesc="false"/>
+        <startProcedureOption/>
+        <storyDescription/>
+        <globalVars/>
+        <systemCommandsDisableOption DisableHelp="false" DisableDebug="false"/>
+    </storyOptions>
+    <procedures/>
+    <libraries>
+        <library>standard/verbs.xml</library>
+    </libraries>
+    <dictionary/>
+    <locations>
+        <location id="белаямгла1лок" name="-- белая мгла --">
+            <hooks>
+                <hook action="идти на север" type="instead">
+                    <instructions>
+                        <showPicture filepath="Challenge_Whiteout.png" maxHeight="400" maxWidth="400"/>
+                        <showMessage beginWithCap="false" carriageReturn="true" message="У тебя нет компаса, чтобы верно определять направление." type="text"/>
+                    </instructions>
+                </hook>
+            </hooks>
+            <roles/>
+            <properties/>
+            <words/>
+            <description>Ты находишься в чём-то влажном и обволакивающем. Ничего не видно на расстоянии вытянутой руки. Кругом только мгла похожая на густой туман. Ты чувствуешь, как движешься, всё быстрее. Но, куда…</description>
+            <attributes/>
+        </location>
+    </locations>
+    <items/>
+    <actions/>
+</story>

@@ -1,5 +1,5 @@
 # Документация по синтаксису и командам для создания текстовых игр на Аперо
-![_](http://apero.ru/public/img/logo.png)
+![http://apero.ru/Игры](http://apero.ru/public/img/logo.png)
 ## [Документация на сайте APERO.RU](http://apero.ru/Документация) 
 
 ## Объявить локацию

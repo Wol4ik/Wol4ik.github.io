@@ -1,3 +1,8 @@
+## Прямая ссылка для запуска игры
+[https://Wol4ik.github.io/games/salet-mystery-lake/index.html](https://Wol4ik.github.io/games/salet-mystery-lake/index.html)
+
+## Сырой текст игры на Salet
+```
 salet.game_id = "a0a0f75b-00f9-406f-913e-d14eaff43104"
 salet.game_version = "0.9"
 salet.autosave = false
@@ -34,3 +39,4 @@ room "fishingcabine",
 $(document).ready(() ->
   salet.beginGame()
 )
+```

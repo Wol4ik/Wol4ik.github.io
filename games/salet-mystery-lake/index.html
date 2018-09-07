@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Проба Salet</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+<style>
+#tools_wrapper .ways {
+	padding: 0.5em;
+}
+.content {
+	padding: 1em;
+}
+.content ul {
+	margin: 0;
+	padding: 0 0 0 1em;
+}
+.content ul.options {
+	padding: 0;
+	text-align: center;
+	margin-top: 0.5em;
+	margin-bottom: 0.7em;
+	list-style-type: none;
+	border-radius: 4px;
+	border: 1px solid #876;
+}
+.content ul.options li {
+	padding: 0.5em;
+	border-bottom: 1px solid #876;
+}
+.content ul.options li:hover {
+	cursor: pointer;
+	background-color: rgba(153, 136, 119, 0.2);
+}
+.content ul.options li:last-child {
+	border-bottom: none;
+}
+.content section {
+	border-top: 1px dashed #bbb;
+}
+.content .room-start {
+	border-top: none;
+}
+.content h3 {
+	text-align: center;
+}
+.way {
+	color: blue;
+	margin-right: 1em;
+}
+.cycle {
+	color: darkgreen;
+	border-bottom: darkgreen dashed 1px;
+}
+</style>
+<body>
+<div id="page">
+  <div class="container">
+    <div id="tools_wrapper" class="row">
+      <div class='ways col-md-6'>
+        <ul class="nav nav-pills" id="ways">
+        </ul>
+      </div>
+    </div> 
+  </div>
+  <div class="container">
+    <div id="content_wrapper" class="row">
+      <div id="content" class="content col-md-10 offset-md-1 col-xs-12"></div>
+      <a name="end_of_content"></a>
+    </div>
+  </div>
+</div>
+<script defer type="text/coffeescript">
+salet.game_id = "a0a0f75b-00f9-406f-913e-d14eaff43104"
+salet.game_version = "0.9"
+salet.autosave = false
+
+room "start",
+  dsc: """
+    ### Загадочное озеро
+
+    Вы у большого камня в середине замёрзшего озера. На берегу виднеется здание администрации турбазы. Неподалёку на льду стоит домик для зимней рыбалки.
+    * [к домику](campoffice)
+    * [к зданию](fishingcabine)
+  """,
+
+
+room "campoffice",
+  dsc: """
+    ### Администрации турбазы
+
+    Вы на покрытом снегом берегу у здания администрации турбазы. Двери парадного и чёрного входа заколочены досками. Рядом начинается лёд замёрзшего озера. В середине озера большой камень, неподалёку от него стоит домик для зимней рыбалки.
+    * [к домику](fishingcabine)
+    * [к камню](start)
+  """,
+
+room "fishingcabine",
+  dsc: """
+    ### Домик для зимней рыбалки
+
+    Вы у домика для зимней рыбалки. Он оборудован печкой-буржуйкой и шкафкиком для снастей. В полу замёрзщая лунка. Неподалёку, в середине озера большой камень. На берегу виднеется здание администрации турбазы.
+    * [к зданию](campoffice)
+    * [к камню](start)  
+  """,
+
+
+$(document).ready(() ->
+  salet.beginGame()
+)
+</script>    
+<script src="for_salet/jquery-3.2.1.min.js"></script>
+<script src="for_salet/coffee-script.js"></script>
+<script src="for_salet/marked.min.js"></script>
+<script src="for_salet/index.min.js"></script>
+</body>
+</html>

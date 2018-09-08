@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<story xmlns="http://toysoft.narod.ru/IFML2Schema" id="story">
+    <inheritedSystemProcedures/>
+    <storyOptions>
+        <startLocationOption location="главное_меню" showStartLocDesc="true"/>
+        <startProcedureOption/>
+        <storyDescription name="рабочее название МАРСЕР - МЕЧ КОРОЛЯ МАРСА" description="Игра для конкурса КРИЛ-2018." version="1.0" author="wol4ik"/>
+        <globalVars/>
+        <systemCommandsDisableOption DisableHelp="false" DisableDebug="false"/>
+    </storyOptions>
+    <procedures/>
+    <libraries>
+        <library>standard/verbs.xml</library>
+    </libraries>
+    <dictionary/>
+    <locations>
+        <location id="главное_меню" name="главное меню">
+            <hooks/>
+            <roles/>
+            <properties/>
+            <words/>
+            <description>Вы в главном меню игры. Начало игры на западе [1]. Титры на востоке [2]. Инструкция "как играть" на севере [3]. Информация для знатоков на юге [4].
+
+Цифровые обозначения вариантов выбора это дополнительный способ серфинга по меню и по некоторым местам внутри самой игры. </description>
+            <attributes/>
+        </location>
+    </locations>
+    <items/>
+    <actions/>
+</story>
